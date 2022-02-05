@@ -5,9 +5,9 @@ import ViewUserField from './components/ViewUserField'
 
 const App = () => {
   return (
-    <div className="container max-w-7xl mx-auto">
+    <div className="container  mx-auto">
       <Header />
-      <div id='content-container' className=" mx-auto grid grid-cols-2 gap-8 p-8">
+      <div id='content-container' className="container max-w-7xl mt-12 mx-auto grid grid-cols-1">
         <AddUserField />
         <ViewUserField />
       </div>
