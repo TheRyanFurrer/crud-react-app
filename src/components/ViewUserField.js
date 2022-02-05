@@ -25,7 +25,7 @@ let people = [
 const ViewUserField = () => {
   return (
     <div className="container px-4 mx-auto flex flex-col gap-4">
-    <h2 className="text-3xl text-indigo-600">View Users</h2>
+      <h2 className="text-3xl text-indigo-600">View Users</h2>
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
           <div className="shadow overflow-hidden border-b border-indigo-200 sm:rounded-lg">
@@ -42,7 +42,7 @@ const ViewUserField = () => {
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium text-indigo-500 uppercase tracking-wider"
                   >
-                    Username
+                    Email
                   </th>
                   {/* <th
                     scope="col"
@@ -71,12 +71,12 @@ const ViewUserField = () => {
                         </div>
                         <div className="ml-4">
                           <div className="text-sm font-medium text-indigo-900">{person.name}</div>
-                          <div className="text-sm text-indigo-500">{person.email}</div>
+                          <div className="text-sm text-indigo-500">{person.username}</div>
                         </div>
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="text-sm text-indigo-900">{person.username}</div>
+                      <div className="text-sm text-indigo-900">{person.email}</div>
                       {/* <div className="text-sm text-indigo-500">{person.department}</div> */}
                     </td>
                     {/* <td className="px-6 py-4 whitespace-nowrap">
